@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@esm/index.mjs';
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.1.0-esm/index.mjs';
 ```
 
 #### isEvalError( value )
@@ -94,7 +94,7 @@ var bool = isEvalError( new EvalError( 'beep' ) );
 <body>
 <script type="module">
 
-import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@esm/index.mjs';
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.1.0-esm/index.mjs';
 
 var bool = isEvalError( new EvalError( 'eval error' ) );
 // returns true
