@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-eval-error/tags). For example,
+
+```javascript
 import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.1.1-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ var bool = isEvalError( new EvalError( 'beep' ) );
 <body>
 <script type="module">
 
-import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.1.1-esm/index.mjs';
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@esm/index.mjs';
 
 var bool = isEvalError( new EvalError( 'eval error' ) );
 // returns true
