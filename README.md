@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@deno/mod.js';
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.2.2-deno/mod.js';
 ```
 
 #### isEvalError( value )
@@ -89,7 +89,7 @@ var bool = isEvalError( new EvalError( 'beep' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@deno/mod.js';
+import isEvalError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-eval-error@v0.2.2-deno/mod.js';
 
 var bool = isEvalError( new EvalError( 'eval error' ) );
 // returns true
